@@ -1,3 +1,46 @@
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.hero-header, .info, .quote, .action, .footer {
+    padding: 0 124px;
+}
+
+.hero-header, footer {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav, .hero-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 24px;
+    font-weight: bold;
+}
+
+.hero-image {
+    background-color: rgb(110,116,124);
+    color: #E5E7EB;
+}
+
+.top-bar, .nav {
+    display: flex;
 }
