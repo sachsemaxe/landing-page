@@ -4,7 +4,7 @@ body {
 }
 
 .hero-header, .info, .quote, .action, .footer {
-    padding: 0 124px;
+    padding: 0 200px;
 }
 
 .hero-header, footer {
@@ -14,11 +14,22 @@ body {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 700;
 }
 
-.nav, .hero-text p{
+.hero {
+    padding-bottom: 120px;
+}
+
+.nav, .hero-text p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-text h1, .hero-text p {
+    margin: 0;
+    padding-right: 32px;
+    margin-bottom: 8px;
 }
 
 .hero-text h1 {
@@ -32,15 +43,33 @@ body {
     color: #f9faf8;
     border: none;
     border-radius: 4px;
-    padding: 6px 24px;
+    padding: 8px 32px;
     font-weight: bold;
+    margin-top: 8px;
+    font-size: 20px;
 }
 
 .hero-image {
     background-color: rgb(110,116,124);
     color: #E5E7EB;
+    text-align: center;
+    align-content: center;
 }
 
-.top-bar, .nav {
+.top-bar, .nav, .hero {
     display: flex;
+    justify-content: space-between;
+}
+
+.top-bar {
+    padding-top: 24px;
+    margin-bottom: 120px;
+}
+
+.nav {
+    gap: 32px;
+}
+
+.hero-text, .hero-image {
+    width: 50%;
 }
